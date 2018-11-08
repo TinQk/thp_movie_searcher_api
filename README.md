@@ -1,24 +1,36 @@
-# README
+# PROJET CRYPTO SEARCHER
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg" align="center" />
 
-* Ruby version
 
-* System dependencies
 
-* Configuration
+# Présentation des contributeurs:
+nom             | Pseudo Slack
+ ------------   | -------------
+Palma Andréa    | @plm
+Potie Quentin   | @TinQk
+Giffard Josselin| @Redcozmo
+Saghour Khalil  | @saghourkhalil
+Smoth Kenadi    | @KenadiS
 
-* Database creation
 
-* Database initialization
+#
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+Bienvenue sur la page du super chercheur de cryptomonnaie. Ce site comporte deux pages:
 
-* ...
+
+- Une page d'accueil qui te permet de chercher une crypto (ex: Bitcoin)
+- Une page de résultat qui te donne la value de la crypto recherché
+
+Si tu te demande pourquoi on a pas fait ca sur la même page et ben... ON A PAS REUSSI
+Donc si tu veux marquer des points thp tu sais ce qu'il te reste à faire mf ! ( --> nous expliquer la vie)
+
+
+* Le lien en prod :
+https://bitcoin-thp.herokuapp.com/home/index
+
+
+Zoubisous <3
