@@ -1,5 +1,15 @@
 class MoviesController < ApplicationController
   def search
-    @movies = SearchMovie.new.search("batman")
+
+
+
+  end
+
+  def result
+    if params[:home][:title]
+      @movies = SearchMovie.new.search(params[:home][:title])
+      
+    end
+
   end
 end

@@ -1,0 +1,13 @@
+
+  <p>Voici la liste de films :</p>
+
+
+  <% if @movies != nil %>
+    <% @movies.each do |movie| %>
+    <img src= <% movie["poster_path"]%> />
+    <p> <%= movie["title"] %> , sorti le: <%= movie["release_date"] %></p>
+
+    <% end %>
+  <% else %>
+  <p>Aucun résultat</p>
+  <% end %>
