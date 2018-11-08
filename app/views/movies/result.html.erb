@@ -1,16 +1,18 @@
 
-  <div class = "text-center"><br><br><br>
+<br>
   <a href = "/">
-  clique ici pour faire une nouvelle recherche
-  </a><br><br><br>
-  <p>Voici la liste de films :</p>
+           Retour au menu
 
+  <div class = "text-center">
+  </a><br>
+  <p><h2>Voici la liste de films :</h2></p>
+<br><br>
 
   <% if @movies != nil %>
-    <% i = 0 %>
-    <% @movies.each do |movie| %>
 
-      <p> <%= movie["title"] %> , sorti le: <%= movie["release_date"] %></p>
+    <% @movies.each do |movie| %>
+<br><br>
+      <p> <strong><%= movie["title"] %> , sorti le: <%= movie["release_date"] %></strong></p>
       <% url = "https://www.themoviedb.org/movie/" + movie["id"].to_s %>
       <p> <%= link_to "Plus d'infos", url %> </p>
 
@@ -19,9 +21,13 @@
           <% url = "https://image.tmdb.org/t/p/w500" + movie["poster_path"] %>
           <img src= <%= url %> />
         <% end %>
+
       <% end %>
+
+
   <% else %>
   <p>Aucun résultat</p>
   <% end %>
+
 
   </div>

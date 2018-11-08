@@ -1,7 +1,11 @@
+<div id = "k">
+<div class = "text-center">
 <h1>Bienvenue sur le Chineur de Films</h1>
-
+<br><br>
 <p>Pour chercher des infos sur ton film préféré, c'est par ici:</p>
 <%= form_for(:home, url: {action: "result"}) do |f| %>
      <%= f.text_field :title %>
      <%=f.submit "Chiner" %>
   <% end %>
+</div>
+</div>
