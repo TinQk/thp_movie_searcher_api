@@ -4,7 +4,13 @@
 
   <% if @movies != nil %>
     <% @movies.each do |movie| %>
-    <img src= <% movie["poster_path"]%> />
+
+    <% if movie["poster_path"] != nil %>
+      <% url = "https://image.tmdb.org/t/p/w500" + movie["poster_path"] %>
+      <%= puts url %>
+      <img src= <%= url %> />
+    <% end %>
+
     <p> <%= movie["title"] %> , sorti le: <%= movie["release_date"] %></p>
 
     <% end %>
