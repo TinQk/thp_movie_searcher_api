@@ -5,16 +5,17 @@
   <% if @movies != nil %>
     <% i = 0 %>
     <% @movies.each do |movie| %>
-    <p> <%= movie["title"] %> , sorti le: <%= movie["release_date"] %></p>
+
+      <p> <%= movie["title"] %> , sorti le: <%= movie["release_date"] %></p>
+      <% url = "https://www.themoviedb.org/movie/" + movie["id"].to_s %>
+      <p> <%= link_to "Plus d'infos", url %> </p>
 
 <!-- Affichage image -->
-      <% if movie["poster_path"] != nil %>
-        <% url = "https://image.tmdb.org/t/p/w500" + movie["poster_path"] %>
-        <%= puts url %>
-        <img src= <%= url %> />
+        <% if movie["poster_path"] != nil %>
+          <% url = "https://image.tmdb.org/t/p/w500" + movie["poster_path"] %>
+          <img src= <%= url %> />
+        <% end %>
       <% end %>
-
-  <% end %>
   <% else %>
   <p>Aucun résultat</p>
   <% end %>

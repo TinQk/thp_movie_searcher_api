@@ -1,8 +1,7 @@
-<h1>MOVIES SCRAPPER DE FOLIIIEEEEE !!!!!!!!!</h1>
+<h1>Bienvenue sur le Chineur de Films</h1>
 
-<p>Coucou, entre ici le film que tu veux chercher</p>
+<p>Pour chercher des infos sur ton film préféré, c'est par ici:</p>
 <%= form_for(:home, url: {action: "result"}) do |f| %>
-     <%= f.label :film %><br>
      <%= f.text_field :title %>
-     <p><%=f.submit "Envoyer" %></p>
+     <%=f.submit "Chiner" %>
   <% end %>
