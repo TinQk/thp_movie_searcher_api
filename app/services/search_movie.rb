@@ -1,4 +1,6 @@
 class SearchMovie
+  def intialize(search_str)
+  end
 
 Tmdb::Api.key(Rails.application.credentials[:api_key_tmdb])
 Tmdb::Api.language("fr")
