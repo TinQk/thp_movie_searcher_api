@@ -1,0 +1,3 @@
+class SearchMovie
+
+end
