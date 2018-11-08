@@ -19,18 +19,15 @@ Smoth Kenadi    | @KenadiS
 
 
 
-Bienvenue sur la page du super chercheur de cryptomonnaie. Ce site comporte deux pages:
+Bienvenue sur la page du super chineur de films. Ce site comporte deux pages:
 
 
-- Une page d'accueil qui te permet de chercher une crypto (ex: Bitcoin)
-- Une page de résultat qui te donne la value de la crypto recherché
+- Une page d'accueil qui te permet de chercher un film
+- Une page de résultat qui te donne tous les films contenant ta recherche, avec leurs affiches.
 
-Si tu te demande pourquoi on a pas fait ca sur la même page et ben... ON A PAS REUSSI
-Donc si tu veux marquer des points thp tu sais ce qu'il te reste à faire mf ! ( --> nous expliquer la vie)
-
+L'appli a quelques petits défaults, et on a pas trouvé comment afficher les réalisateurs, en revanche, tu as le droit a un petit lien qui t'amene sur la page tmdb correspondante !
 
 * Le lien en prod :
-https://bitcoin-thp.herokuapp.com/home/index
-
+https://the-movie-searcher.herokuapp.com/
 
 Zoubisous <3
