@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+ #k{
+    padding-left: 20px;
+    padding-top: 18%;
+}
