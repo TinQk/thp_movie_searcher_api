@@ -1,2 +1,10 @@
 <h1>Movies#search</h1>
-<p>Find me in app/views/movies/search.html.erb</p>
+
+<p>Voici la liste de films :</p>
+
+
+
+<% @movies.each do |movie| %>
+    <%= movie["title"] %> <br>
+
+<% end %>
